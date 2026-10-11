@@ -1,0 +1,1990 @@
+{
+  "kind": "SSZ-FK curvature continuation gate 1 (research probe)",
+  "scope": "EFFECTIVE_MODEL_ONLY; no astrophysical or QNM claims",
+  "sites": 40,
+  "rs_steps": [
+    0.0,
+    0.05,
+    0.1,
+    0.15000000000000002,
+    0.2,
+    0.25,
+    0.30000000000000004,
+    0.35000000000000003,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6000000000000001,
+    0.65,
+    0.7000000000000001,
+    0.75,
+    0.8,
+    0.8500000000000001,
+    0.9,
+    0.9500000000000001,
+    1.0,
+    1.05,
+    1.1,
+    1.1500000000000001,
+    1.2000000000000002,
+    1.25,
+    1.3,
+    1.35,
+    1.4000000000000001,
+    1.4500000000000002,
+    1.5,
+    1.55,
+    1.6,
+    1.6500000000000001,
+    1.7000000000000002,
+    1.75,
+    1.8,
+    1.85,
+    1.9000000000000001,
+    1.9500000000000002,
+    2.0,
+    2.0500000000000003,
+    2.1,
+    2.15,
+    2.2,
+    2.25,
+    2.3000000000000003,
+    2.35,
+    2.4000000000000004,
+    2.45,
+    2.5,
+    2.5500000000000003,
+    2.6,
+    2.6500000000000004,
+    2.7,
+    2.75,
+    2.8000000000000003,
+    2.85,
+    2.9000000000000004,
+    2.95,
+    3.0,
+    3.0500000000000003,
+    3.1,
+    3.1500000000000004,
+    3.2,
+    3.25,
+    3.3000000000000003,
+    3.35,
+    3.4000000000000004,
+    3.45,
+    3.5,
+    3.5500000000000003,
+    3.6,
+    3.6500000000000004,
+    3.7,
+    3.75,
+    3.8000000000000003,
+    3.85,
+    3.9000000000000004,
+    3.95,
+    4.0,
+    4.05,
+    4.1000000000000005,
+    4.15,
+    4.2,
+    4.25,
+    4.3,
+    4.3500000000000005,
+    4.4
+  ],
+  "flat_reference_equilibrium": {
+    "energy": 0.007750381202467559,
+    "grad_inf": 1.194253029801473e-13,
+    "min_hessian_eig": 0.022880568889617963,
+    "n_negative_hessian": 0,
+    "stationary": true,
+    "at_bound": false
+  },
+  "n_stationary": 47,
+  "n_unstable_steps": 20,
+  "branch": [
+    {
+      "r_s": 0.0,
+      "grad_inf": 1.194253029801473e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.022880568889617963,
+      "n_negative_hessian": 0,
+      "energy": 0.007750381202467559,
+      "mac": {
+        "alpha": 1.0,
+        "residual": 0.0,
+        "mac_min": 0.9999999999999987,
+        "mac_median": 1.0,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 1.0,
+          "residual": 0.0
+        }
+      },
+      "subspace": {
+        "alpha": 1.0,
+        "max_rel_resid": 0.0,
+        "n_groups": 20,
+        "min_principal_cos": 0.9999999999999997,
+        "mean_principal_cos": 1.0
+      },
+      "rank": {
+        "alpha": 1.0,
+        "residual": 0.0
+      }
+    },
+    {
+      "r_s": 0.05,
+      "grad_inf": 1.1751710715657282e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.02233473226308648,
+      "n_negative_hessian": 0,
+      "energy": 0.007743815870964789,
+      "mac": {
+        "alpha": 0.9982231619543761,
+        "residual": 0.013098829049149985,
+        "mac_min": 0.9993314614532913,
+        "mac_median": 0.999948838577867,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 0.9982231619543761,
+          "residual": 0.013098829049149985
+        }
+      },
+      "subspace": {
+        "alpha": 0.9982231619543761,
+        "max_rel_resid": 0.013098829049149985,
+        "n_groups": 20,
+        "min_principal_cos": 0.9996656748399892,
+        "mean_principal_cos": 0.9999082410778131
+      },
+      "rank": {
+        "alpha": 0.9982231619543761,
+        "residual": 0.013098829049149985
+      }
+    },
+    {
+      "r_s": 0.1,
+      "grad_inf": 1.0282052986809731e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.02177140099124142,
+      "n_negative_hessian": 0,
+      "energy": 0.0077452254098581315,
+      "mac": {
+        "alpha": 0.9964453675096476,
+        "residual": 0.026702671245797213,
+        "mac_min": 0.9972271464989075,
+        "mac_median": 0.999791509529814,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 0.9964453675096476,
+          "residual": 0.026702671245797213
+        }
+      },
+      "subspace": {
+        "alpha": 0.9964453675096476,
+        "max_rel_resid": 0.026702671245797213,
+        "n_groups": 20,
+        "min_principal_cos": 0.9986126108250923,
+        "mean_principal_cos": 0.999631384235785
+      },
+      "rank": {
+        "alpha": 0.9964453675096476,
+        "residual": 0.026702671245797213
+      }
+    },
+    {
+      "r_s": 0.15000000000000002,
+      "grad_inf": 8.237768106544863e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.02119033068655559,
+      "n_negative_hessian": 0,
+      "energy": 0.007754554984002069,
+      "mac": {
+        "alpha": 0.9946667700740675,
+        "residual": 0.04083673245125163,
+        "mac_min": 0.9935340222736082,
+        "mac_median": 0.9995203682256196,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 0.9946667700740675,
+          "residual": 0.04083673245125163
+        }
+      },
+      "subspace": {
+        "alpha": 0.9946667700740675,
+        "max_rel_resid": 0.04083673245125163,
+        "n_groups": 20,
+        "min_principal_cos": 0.996761768063768,
+        "mean_principal_cos": 0.9991644629996366
+      },
+      "rank": {
+        "alpha": 0.9946667700740675,
+        "residual": 0.04083673245125163
+      }
+    },
+    {
+      "r_s": 0.2,
+      "grad_inf": 1.1284029266533935e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.020591812269129012,
+      "n_negative_hessian": 0,
+      "energy": 0.007771749437287069,
+      "mac": {
+        "alpha": 0.9928875076359582,
+        "residual": 0.05551619607577571,
+        "mac_min": 0.9880922135459665,
+        "mac_median": 0.9991246267516078,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 0.9928875076359582,
+          "residual": 0.05551619607577571
+        }
+      },
+      "subspace": {
+        "alpha": 0.9928875076359582,
+        "max_rel_resid": 0.05551619607577571,
+        "n_groups": 20,
+        "min_principal_cos": 0.9940282760293927,
+        "mean_principal_cos": 0.9984989505100328
+      },
+      "rank": {
+        "alpha": 0.9928875076359582,
+        "residual": 0.05551619607577571
+      }
+    },
+    {
+      "r_s": 0.25,
+      "grad_inf": 5.08330785797817e-09,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.019976483713719344,
+      "n_negative_hessian": 0,
+      "energy": 0.007796753179727287,
+      "mac": {
+        "alpha": 0.9911077060336115,
+        "residual": 0.0707500654108975,
+        "mac_min": 0.9807353164378949,
+        "mac_median": 0.9985893407961937,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 20,
+          "alpha": 0.9911077060336115,
+          "residual": 0.0707500654108975
+        }
+      },
+      "subspace": {
+        "alpha": 0.9911077060336115,
+        "max_rel_resid": 0.0707500654108975,
+        "n_groups": 20,
+        "min_principal_cos": 0.9903208149069144,
+        "mean_principal_cos": 0.9976225761582327
+      },
+      "rank": {
+        "alpha": 0.9911077060336115,
+        "residual": 0.0707500654108975
+      }
+    },
+    {
+      "r_s": 0.30000000000000004,
+      "grad_inf": 0.0018436265677560706,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.017536770405971378,
+      "n_negative_hessian": 0,
+      "energy": 0.007830549769385605
+    },
+    {
+      "r_s": 0.35000000000000003,
+      "grad_inf": 0.004272050190000851,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.012271347552558886,
+      "n_negative_hessian": 0,
+      "energy": 0.007883710785854169
+    },
+    {
+      "r_s": 0.4,
+      "grad_inf": 0.010424505686830492,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.0017433733722567494,
+      "n_negative_hessian": 0,
+      "energy": 0.007968666095639195
+    },
+    {
+      "r_s": 0.45,
+      "grad_inf": 0.01451734527108427,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.0496775402330732,
+      "n_negative_hessian": 1,
+      "energy": 0.008088324418884617
+    },
+    {
+      "r_s": 0.5,
+      "grad_inf": 0.0029678006856103567,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.006998959860826423,
+      "n_negative_hessian": 1,
+      "energy": 0.004830498355059882
+    },
+    {
+      "r_s": 0.55,
+      "grad_inf": 0.002804363623208097,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.007339142736641996,
+      "n_negative_hessian": 1,
+      "energy": 0.004782595265673501
+    },
+    {
+      "r_s": 0.6000000000000001,
+      "grad_inf": 0.0027572862314218984,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.007470576345072769,
+      "n_negative_hessian": 1,
+      "energy": 0.004741718563709466
+    },
+    {
+      "r_s": 0.65,
+      "grad_inf": 0.002774942348282839,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.007255914100712207,
+      "n_negative_hessian": 1,
+      "energy": 0.004707869445841378
+    },
+    {
+      "r_s": 0.7000000000000001,
+      "grad_inf": 0.0028367940415232416,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.006547333847404903,
+      "n_negative_hessian": 1,
+      "energy": 0.004681053683547028
+    },
+    {
+      "r_s": 0.75,
+      "grad_inf": 0.002865248423599703,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.0048700613112519055,
+      "n_negative_hessian": 1,
+      "energy": 0.004661341048118384
+    },
+    {
+      "r_s": 0.8,
+      "grad_inf": 0.002705236656623167,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.0014768490748311284,
+      "n_negative_hessian": 1,
+      "energy": 0.00464898494354277
+    },
+    {
+      "r_s": 0.8500000000000001,
+      "grad_inf": 0.0018311411136056038,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.0050631135807739855,
+      "n_negative_hessian": 0,
+      "energy": 0.004644759663109974
+    },
+    {
+      "r_s": 0.9,
+      "grad_inf": 1.7457171819224016e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.012665151783557524,
+      "n_negative_hessian": 0,
+      "energy": 0.004650675034538953,
+      "mac": {
+        "alpha": 0.9876277245012628,
+        "residual": 12.283741551542915,
+        "mac_min": 0.23232021981716217,
+        "mac_median": 0.881707998388608,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 14,
+          "alpha": 0.9841374089330728,
+          "residual": 0.02921889222259202
+        }
+      },
+      "subspace": {
+        "alpha": 0.9876277245012628,
+        "max_rel_resid": 12.283741551542915,
+        "n_groups": 20,
+        "min_principal_cos": 0.481996078632557,
+        "mean_principal_cos": 0.8836020351604483
+      },
+      "rank": {
+        "alpha": 0.9882076514039142,
+        "residual": 6.4583416985714726
+      }
+    },
+    {
+      "r_s": 0.9500000000000001,
+      "grad_inf": 8.565023690287887e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.01286504419642109,
+      "n_negative_hessian": 0,
+      "energy": 0.004665238783000664,
+      "mac": {
+        "alpha": 0.9858620222193009,
+        "residual": 12.28693802061207,
+        "mac_min": 0.2578959727828971,
+        "mac_median": 0.8756757430153308,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.9815554200264263,
+          "residual": 0.022499769102418538
+        }
+      },
+      "subspace": {
+        "alpha": 0.9858620222193009,
+        "max_rel_resid": 12.28693802061207,
+        "n_groups": 20,
+        "min_principal_cos": 0.5078345919518453,
+        "mean_principal_cos": 0.8817378067469088
+      },
+      "rank": {
+        "alpha": 0.9864408284701465,
+        "residual": 6.460137034747739
+      }
+    },
+    {
+      "r_s": 1.0,
+      "grad_inf": 9.756778718283954e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.01282799322795762,
+      "n_negative_hessian": 0,
+      "energy": 0.004687202473248012,
+      "mac": {
+        "alpha": 0.984093681089447,
+        "residual": 12.289660345467945,
+        "mac_min": 0.2855899023990047,
+        "mac_median": 0.8681978283565477,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.9797763017796074,
+          "residual": 0.02256806860096346
+        }
+      },
+      "subspace": {
+        "alpha": 0.984093681089447,
+        "max_rel_resid": 12.289660345467945,
+        "n_groups": 20,
+        "min_principal_cos": 0.5344061212214964,
+        "mean_principal_cos": 0.8788532354855636
+      },
+      "rank": {
+        "alpha": 0.9846716498123651,
+        "residual": 6.461664001387094
+      }
+    },
+    {
+      "r_s": 1.05,
+      "grad_inf": 1.434892982210556e-09,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.012399887301026029,
+      "n_negative_hessian": 0,
+      "energy": 0.004716444860873972,
+      "mac": {
+        "alpha": 0.9823232278285653,
+        "residual": 12.291903353688259,
+        "mac_min": 0.316296445962256,
+        "mac_median": 0.8586336069956981,
+        "n_below_0_5": 3,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.9779981563337679,
+          "residual": 0.02262890807533162
+        }
+      },
+      "subspace": {
+        "alpha": 0.9823232278285653,
+        "max_rel_resid": 12.291903353688259,
+        "n_groups": 20,
+        "min_principal_cos": 0.5624023879414597,
+        "mean_principal_cos": 0.8745765931098075
+      },
+      "rank": {
+        "alpha": 0.9829008423317764,
+        "residual": 6.462918163953292
+      }
+    },
+    {
+      "r_s": 1.1,
+      "grad_inf": 2.042765956389303e-11,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.0111221121434812,
+      "n_negative_hessian": 0,
+      "energy": 0.004752788157423724,
+      "mac": {
+        "alpha": 0.9805497489303231,
+        "residual": 12.293655996816932,
+        "mac_min": 0.3521644989046335,
+        "mac_median": 0.845670384686469,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.9760697861798812,
+          "residual": 0.02283923163352891
+        }
+      },
+      "subspace": {
+        "alpha": 0.9805497489303231,
+        "max_rel_resid": 12.293655996816932,
+        "n_groups": 20,
+        "min_principal_cos": 0.5934344941985034,
+        "mean_principal_cos": 0.8680445575164348
+      },
+      "rank": {
+        "alpha": 0.9811281403882459,
+        "residual": 6.463888365157249
+      }
+    },
+    {
+      "r_s": 1.1500000000000001,
+      "grad_inf": 3.0099423920302952e-05,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.010455311039914095,
+      "n_negative_hessian": 1,
+      "energy": 0.004796301079326085
+    },
+    {
+      "r_s": 1.2000000000000002,
+      "grad_inf": 1.5156365745783162e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.413612871859043,
+      "n_negative_hessian": 0,
+      "energy": 0.00017087357320575805,
+      "mac": {
+        "alpha": 0.9960772974795027,
+        "residual": 12.027471531406,
+        "mac_min": 0.5469707474916544,
+        "mac_median": 0.9409866569410008,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9930661115351752,
+          "residual": 0.0829473157235678
+        }
+      },
+      "subspace": {
+        "alpha": 0.9960772974795027,
+        "max_rel_resid": 12.027471531406,
+        "n_groups": 20,
+        "min_principal_cos": 0.7395747071740989,
+        "mean_principal_cos": 0.9303164305212406
+      },
+      "rank": {
+        "alpha": 0.9973272917889154,
+        "residual": 12.011143626399926
+      }
+    },
+    {
+      "r_s": 1.25,
+      "grad_inf": 1.3196561898798365e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.423023311805273,
+      "n_negative_hessian": 0,
+      "energy": 0.0001239331609937157,
+      "mac": {
+        "alpha": 0.9942695873890018,
+        "residual": 12.028625749652074,
+        "mac_min": 0.5454499020478795,
+        "mac_median": 0.9410567223807228,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9912592106584515,
+          "residual": 0.08303415387395702
+        }
+      },
+      "subspace": {
+        "alpha": 0.9942695873890018,
+        "max_rel_resid": 12.028625749652074,
+        "n_groups": 20,
+        "min_principal_cos": 0.7385458022681323,
+        "mean_principal_cos": 0.9302945223505084
+      },
+      "rank": {
+        "alpha": 0.995516564559432,
+        "residual": 12.012306183056932
+      }
+    },
+    {
+      "r_s": 1.3,
+      "grad_inf": 9.514784793385189e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.432220069921378,
+      "n_negative_hessian": 0,
+      "energy": 8.48851356697946e-05,
+      "mac": {
+        "alpha": 0.9924626510633767,
+        "residual": 12.02949739755053,
+        "mac_min": 0.5441726555203329,
+        "mac_median": 0.941101821796688,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9894538696317294,
+          "residual": 0.08310618983595368
+        }
+      },
+      "subspace": {
+        "alpha": 0.9924626510633767,
+        "max_rel_resid": 12.02949739755053,
+        "n_groups": 20,
+        "min_principal_cos": 0.7376805918013112,
+        "mean_principal_cos": 0.9302536063576543
+      },
+      "rank": {
+        "alpha": 0.9937067221870505,
+        "residual": 12.013185118377661
+      }
+    },
+    {
+      "r_s": 1.35,
+      "grad_inf": 1.3658518760450988e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.4412075551604895,
+      "n_negative_hessian": 0,
+      "energy": 5.3678425070720494e-05,
+      "mac": {
+        "alpha": 0.9906565044606147,
+        "residual": 12.03009203578399,
+        "mac_min": 0.5431375854281386,
+        "mac_median": 0.9411372919068133,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.987650091523351,
+          "residual": 0.08316340981449787
+        }
+      },
+      "subspace": {
+        "alpha": 0.9906565044606147,
+        "max_rel_resid": 12.03009203578399,
+        "n_groups": 20,
+        "min_principal_cos": 0.7369786872278863,
+        "mean_principal_cos": 0.930193784201214
+      },
+      "rank": {
+        "alpha": 0.9918977723512733,
+        "residual": 12.013786086413822
+      }
+    },
+    {
+      "r_s": 1.4000000000000001,
+      "grad_inf": 1.0693702867659027e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.449989025100669,
+      "n_negative_hessian": 0,
+      "energy": 3.0262351914933246e-05,
+      "mac": {
+        "alpha": 0.9888511609854266,
+        "residual": 12.03041307745965,
+        "mac_min": 0.5423434110267734,
+        "mac_median": 0.9411968483530291,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9858478782349017,
+          "residual": 0.08320580420565318
+        }
+      },
+      "subspace": {
+        "alpha": 0.9888511609854266,
+        "max_rel_resid": 12.03041307745965,
+        "n_groups": 20,
+        "min_principal_cos": 0.7364396859395707,
+        "mean_principal_cos": 0.9301149311920153
+      },
+      "rank": {
+        "alpha": 0.9900897214400197,
+        "residual": 12.014112580650853
+      }
+    },
+    {
+      "r_s": 1.4500000000000002,
+      "grad_inf": 9.408646821709721e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.458566615313368,
+      "n_negative_hessian": 0,
+      "energy": 1.4586626849044469e-05,
+      "mac": {
+        "alpha": 0.9870466315607561,
+        "residual": 12.03046179981099,
+        "mac_min": 0.5417890052572132,
+        "mac_median": 0.9412100248684688,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9840472304965906,
+          "residual": 0.08323336751771575
+        }
+      },
+      "subspace": {
+        "alpha": 0.9870466315607561,
+        "max_rel_resid": 12.03046179981099,
+        "n_groups": 20,
+        "min_principal_cos": 0.7360631802075236,
+        "mean_principal_cos": 0.9300166895592386
+      },
+      "rank": {
+        "alpha": 0.988282574540932,
+        "residual": 12.014165946575483
+      }
+    },
+    {
+      "r_s": 1.5,
+      "grad_inf": 1.3592252323668674e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.466941356613591,
+      "n_negative_hessian": 0,
+      "energy": 6.6013412878283255e-06,
+      "mac": {
+        "alpha": 0.9852429247028556,
+        "residual": 12.030237328624509,
+        "mac_min": 0.5414734028487669,
+        "mac_median": 0.9411768907244098,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9822481478678845,
+          "residual": 0.08324609831379845
+        }
+      },
+      "subspace": {
+        "alpha": 0.9852429247028556,
+        "max_rel_resid": 12.030237328624509,
+        "n_groups": 20,
+        "min_principal_cos": 0.7358487635708619,
+        "mean_principal_cos": 0.9298984586960671
+      },
+      "rank": {
+        "alpha": 0.98647633544054,
+        "residual": 12.013945366964299
+      }
+    },
+    {
+      "r_s": 1.55,
+      "grad_inf": 1.0959549240352473e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.475113180078766,
+      "n_negative_hessian": 0,
+      "energy": 6.256960067271926e-06,
+      "mac": {
+        "alpha": 0.9834400466008812,
+        "residual": 12.029736594429922,
+        "mac_min": 0.541395804782553,
+        "mac_median": 0.9410974163055182,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9804506287429888,
+          "residual": 0.08324399917650166
+        }
+      },
+      "subspace": {
+        "alpha": 0.9834400466008812,
+        "max_rel_resid": 12.029736594429922,
+        "n_groups": 20,
+        "min_principal_cos": 0.7357960347695228,
+        "mean_principal_cos": 0.9297593821598047
+      },
+      "rank": {
+        "alpha": 0.9846710066309373,
+        "residual": 12.013447818948677
+      }
+    },
+    {
+      "r_s": 1.6,
+      "grad_inf": 1.0756152912794192e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.48308090950556,
+      "n_negative_hessian": 0,
+      "energy": 1.3504313903305287e-05,
+      "mac": {
+        "alpha": 0.9816380012021272,
+        "residual": 12.028954259079006,
+        "mac_min": 0.5415555792747395,
+        "mac_median": 0.9409714734244551,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9786546703608655,
+          "residual": 0.08322707669497205
+        }
+      },
+      "subspace": {
+        "alpha": 0.9816380012021272,
+        "max_rel_resid": 12.028954259079006,
+        "n_groups": 20,
+        "min_principal_cos": 0.7359045993026132,
+        "mean_principal_cos": 0.9295983312074856
+      },
+      "rank": {
+        "alpha": 0.9828665893236992,
+        "residual": 12.012668001500323
+      }
+    },
+    {
+      "r_s": 1.6500000000000001,
+      "grad_inf": 1.2295459789202212e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.490842240721824,
+      "n_negative_hessian": 0,
+      "energy": 2.829459166895605e-05,
+      "mac": {
+        "alpha": 0.9798367903042311,
+        "residual": 12.027882610911448,
+        "mac_min": 0.5419522593913652,
+        "mac_median": 0.9407988357164336,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9768602688195527,
+          "residual": 0.08319534147440992
+        }
+      },
+      "subspace": {
+        "alpha": 0.9798367903042311,
+        "max_rel_resid": 12.027882610911448,
+        "n_groups": 20,
+        "min_principal_cos": 0.7361740686762644,
+        "mean_principal_cos": 0.9294138846716166
+      },
+      "rank": {
+        "alpha": 0.9810630834708628,
+        "residual": 12.011598231557453
+      }
+    },
+    {
+      "r_s": 1.7000000000000002,
+      "grad_inf": 1.221713702426186e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.49839370687565,
+      "n_negative_hessian": 0,
+      "energy": 5.057933247119917e-05,
+      "mac": {
+        "alpha": 0.9780364136558484,
+        "residual": 12.02651142628311,
+        "mac_min": 0.5425855373608613,
+        "mac_median": 0.940579179115486,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9750674190946335,
+          "residual": 0.08314880816781639
+        }
+      },
+      "subspace": {
+        "alpha": 0.9780364136558484,
+        "max_rel_resid": 12.02651142628311,
+        "n_groups": 20,
+        "min_principal_cos": 0.7366040573882696,
+        "mean_principal_cos": 0.9292043050348722
+      },
+      "rank": {
+        "alpha": 0.9792604877928527,
+        "residual": 12.010228306591184
+      }
+    },
+    {
+      "r_s": 1.75,
+      "grad_inf": 1.2364761992067486e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.505730628470384,
+      "n_negative_hessian": 0,
+      "energy": 8.031041754530567e-05,
+      "mac": {
+        "alpha": 0.9762368690674784,
+        "residual": 12.024827794835597,
+        "mac_min": 0.5434552556065062,
+        "mac_median": 0.9403921382616671,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9732761150617733,
+          "residual": 0.08308749552953612
+        }
+      },
+      "subspace": {
+        "alpha": 0.9762368690674784,
+        "max_rel_resid": 12.024827794835597,
+        "n_groups": 20,
+        "min_principal_cos": 0.7371941776808242,
+        "mean_principal_cos": 0.9289675106654277
+      },
+      "rank": {
+        "alpha": 0.9774587998133121,
+        "residual": 12.008545331017443
+      }
+    },
+    {
+      "r_s": 1.8,
+      "grad_inf": 1.2796881609933308e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.512847046485971,
+      "n_negative_hessian": 0,
+      "energy": 0.0001174400619571843,
+      "mac": {
+        "alpha": 0.9744381525342112,
+        "residual": 12.022815905549107,
+        "mac_min": 0.5445613944801584,
+        "mac_median": 0.9401881988156644,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9714863495232917,
+          "residual": 0.08301142648984831
+        }
+      },
+      "subspace": {
+        "alpha": 0.9744381525342112,
+        "max_rel_resid": 12.022815905549107,
+        "n_groups": 20,
+        "min_principal_cos": 0.7379440320784217,
+        "mean_principal_cos": 0.9287010443505471
+      },
+      "rank": {
+        "alpha": 0.9756580159008348,
+        "residual": 12.006533503524466
+      }
+    },
+    {
+      "r_s": 1.85,
+      "grad_inf": 1.1032667834864895e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 4.519735636397534,
+      "n_negative_hessian": 0,
+      "energy": 0.00016192080609172467,
+      "mac": {
+        "alpha": 0.972640258372218,
+        "residual": 12.02045679040288,
+        "mac_min": 0.5459040566398979,
+        "mac_median": 0.9399586130428615,
+        "n_below_0_5": 0,
+        "high_mac": {
+          "n": 16,
+          "alpha": 0.9696981142388036,
+          "residual": 0.08292062824969168
+        }
+      },
+      "subspace": {
+        "alpha": 0.972640258372218,
+        "max_rel_resid": 12.02045679040288,
+        "n_groups": 20,
+        "min_principal_cos": 0.7388532037149854,
+        "mean_principal_cos": 0.9284020385490835
+      },
+      "rank": {
+        "alpha": 0.9738581313176439,
+        "residual": 12.00417386216911
+      }
+    },
+    {
+      "r_s": 1.9000000000000001,
+      "grad_inf": 0.01614752796963289,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 4.446870573206614,
+      "n_negative_hessian": 0,
+      "energy": 0.00029025479391536313
+    },
+    {
+      "r_s": 1.9500000000000002,
+      "grad_inf": 0.028215177365086604,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 3.7207065903785304,
+      "n_negative_hessian": 0,
+      "energy": 0.0007543710409130429
+    },
+    {
+      "r_s": 2.0,
+      "grad_inf": 0.03489246629536258,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 2.2708173919225585,
+      "n_negative_hessian": 0,
+      "energy": 0.0016284663189763797
+    },
+    {
+      "r_s": 2.0500000000000003,
+      "grad_inf": 0.035579079113364005,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.4652940716755287,
+      "n_negative_hessian": 0,
+      "energy": 0.002856134198959264
+    },
+    {
+      "r_s": 2.1,
+      "grad_inf": 0.035570187736889095,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -1.3289056692065528,
+      "n_negative_hessian": 1,
+      "energy": 0.0043049267543589535
+    },
+    {
+      "r_s": 2.15,
+      "grad_inf": 0.03555791536092984,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -2.785582654142442,
+      "n_negative_hessian": 1,
+      "energy": 0.00580578864580666
+    },
+    {
+      "r_s": 2.2,
+      "grad_inf": 0.03561749160241606,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -3.680396036655392,
+      "n_negative_hessian": 2,
+      "energy": 0.0071876953757109025
+    },
+    {
+      "r_s": 2.25,
+      "grad_inf": 0.0037754863230627404,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.002381007649576741,
+      "n_negative_hessian": 0,
+      "energy": 0.0042860216989737505
+    },
+    {
+      "r_s": 2.3000000000000003,
+      "grad_inf": 0.0027676329879450564,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.02205874055964359,
+      "n_negative_hessian": 0,
+      "energy": 0.004264337480159896
+    },
+    {
+      "r_s": 2.35,
+      "grad_inf": 1.147207329132982e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.03798194444408444,
+      "n_negative_hessian": 0,
+      "energy": 0.004256833130487874,
+      "mac": {
+        "alpha": 0.9373340776765291,
+        "residual": 12.311766752632092,
+        "mac_min": 0.306749613539185,
+        "mac_median": 0.7891404984820589,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.9315190784253409,
+          "residual": 0.013280385448174458
+        }
+      },
+      "subspace": {
+        "alpha": 0.9373340776765291,
+        "max_rel_resid": 12.311766752632092,
+        "n_groups": 20,
+        "min_principal_cos": 0.5538498113560976,
+        "mean_principal_cos": 0.8349825656907605
+      },
+      "rank": {
+        "alpha": 0.9378645218363867,
+        "residual": 6.474235830354603
+      }
+    },
+    {
+      "r_s": 2.4000000000000004,
+      "grad_inf": 1.5785331375361977e-11,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.039803700636521805,
+      "n_negative_hessian": 0,
+      "energy": 0.004258343208762245,
+      "mac": {
+        "alpha": 0.9355998196655823,
+        "residual": 12.308387065973536,
+        "mac_min": 0.3201214287135717,
+        "mac_median": 0.7926117079275202,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.9298272418671687,
+          "residual": 0.013236788495793966
+        }
+      },
+      "subspace": {
+        "alpha": 0.9355998196655823,
+        "max_rel_resid": 12.308387065973536,
+        "n_groups": 20,
+        "min_principal_cos": 0.5657927436027893,
+        "mean_principal_cos": 0.8367077831601453
+      },
+      "rank": {
+        "alpha": 0.9361279356941778,
+        "residual": 6.472348967457974
+      }
+    },
+    {
+      "r_s": 2.45,
+      "grad_inf": 1.1465343952021811e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.04142059379090564,
+      "n_negative_hessian": 0,
+      "energy": 0.004267044410801939,
+      "mac": {
+        "alpha": 0.9338646509847406,
+        "residual": 12.304535564686368,
+        "mac_min": 0.332103327223894,
+        "mac_median": 0.7956194373557077,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.9281374198139063,
+          "residual": 0.013189565220196944
+        }
+      },
+      "subspace": {
+        "alpha": 0.9338646509847406,
+        "max_rel_resid": 12.304535564686368,
+        "n_groups": 20,
+        "min_principal_cos": 0.5762840681676829,
+        "mean_principal_cos": 0.8380643022676562
+      },
+      "rank": {
+        "alpha": 0.9343905875425785,
+        "residual": 6.470196033155896
+      }
+    },
+    {
+      "r_s": 2.5,
+      "grad_inf": 1.3346268534775163e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.04288915842506722,
+      "n_negative_hessian": 0,
+      "energy": 0.004282910929079408,
+      "mac": {
+        "alpha": 0.932128655562422,
+        "residual": 12.300179597288757,
+        "mac_min": 0.34294151748146107,
+        "mac_median": 0.7982468233430453,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.9264496033869491,
+          "residual": 0.013138699977553528
+        }
+      },
+      "subspace": {
+        "alpha": 0.932128655562422,
+        "max_rel_resid": 12.300179597288757,
+        "n_groups": 20,
+        "min_principal_cos": 0.5856120878887842,
+        "mean_principal_cos": 0.8391134422223546
+      },
+      "rank": {
+        "alpha": 0.9326525126605468,
+        "residual": 6.46775907783747
+      }
+    },
+    {
+      "r_s": 2.5500000000000003,
+      "grad_inf": 2.2962465262565956e-12,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.04424584477337557,
+      "n_negative_hessian": 0,
+      "energy": 0.004305911959806029,
+      "mac": {
+        "alpha": 0.9303918987682986,
+        "residual": 12.29528096651535,
+        "mac_min": 0.34962578346861456,
+        "mac_median": 0.800554269313213,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.924763802294767,
+          "residual": 0.013084195597116322
+        }
+      },
+      "subspace": {
+        "alpha": 0.9303918987682986,
+        "max_rel_resid": 12.29528096651535,
+        "n_groups": 20,
+        "min_principal_cos": 0.5912916230326745,
+        "mean_principal_cos": 0.8398975153975272
+      },
+      "rank": {
+        "alpha": 0.9309137448521134,
+        "residual": 6.4650169034402705
+      }
+    },
+    {
+      "r_s": 2.6,
+      "grad_inf": 1.2674902793996523e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.04551497848225875,
+      "n_negative_hessian": 0,
+      "energy": 0.004336013287279469,
+      "mac": {
+        "alpha": 0.9286544279871776,
+        "residual": 12.289795538367684,
+        "mac_min": 0.33939092104215574,
+        "mac_median": 0.8025874657978598,
+        "n_below_0_5": 4,
+        "high_mac": {
+          "n": 10,
+          "alpha": 0.9230800301349567,
+          "residual": 0.013026063352570167
+        }
+      },
+      "subspace": {
+        "alpha": 0.9286544279871776,
+        "max_rel_resid": 12.289795538367684,
+        "n_groups": 20,
+        "min_principal_cos": 0.5825726744725982,
+        "mean_principal_cos": 0.8404464229717448
+      },
+      "rank": {
+        "alpha": 0.9291743098399646,
+        "residual": 6.46194490047651
+      }
+    },
+    {
+      "r_s": 2.6500000000000004,
+      "grad_inf": 0.026022319946634533,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.04673213427737527,
+      "n_negative_hessian": 0,
+      "energy": 0.00442898532523006
+    },
+    {
+      "r_s": 2.7,
+      "grad_inf": 0.03403085738668261,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.04792167665519023,
+      "n_negative_hessian": 0,
+      "energy": 0.004694209164120612
+    },
+    {
+      "r_s": 2.75,
+      "grad_inf": 0.03554306231553209,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.049094040379125244,
+      "n_negative_hessian": 0,
+      "energy": 0.005147978425136898
+    },
+    {
+      "r_s": 2.8000000000000003,
+      "grad_inf": 0.03553398833716648,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.05030036143406111,
+      "n_negative_hessian": 0,
+      "energy": 0.005760422668358129
+    },
+    {
+      "r_s": 2.85,
+      "grad_inf": 0.0355952118492825,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -1.45800105968924,
+      "n_negative_hessian": 1,
+      "energy": 0.006468674580597448
+    },
+    {
+      "r_s": 2.9000000000000004,
+      "grad_inf": 0.035494857506654334,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -2.667188570591699,
+      "n_negative_hessian": 1,
+      "energy": 0.007189710403287796
+    },
+    {
+      "r_s": 2.95,
+      "grad_inf": 0.0008874069761581997,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.02592007426630451,
+      "n_negative_hessian": 0,
+      "energy": 0.006881311698875363
+    },
+    {
+      "r_s": 3.0,
+      "grad_inf": 1.2414375083480422e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.03072220083347156,
+      "n_negative_hessian": 0,
+      "energy": 0.006853689928660994,
+      "mac": {
+        "alpha": 0.8980534508884735,
+        "residual": 0.49322634986106284,
+        "mac_min": 0.2889576275599743,
+        "mac_median": 0.82446992875011,
+        "n_below_0_5": 3,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8974134529512328,
+          "residual": 0.0020542751616515545
+        }
+      },
+      "subspace": {
+        "alpha": 0.8980534508884735,
+        "max_rel_resid": 0.49322634986106284,
+        "n_groups": 20,
+        "min_principal_cos": 0.5375477909544177,
+        "mean_principal_cos": 0.8465077616337208
+      },
+      "rank": {
+        "alpha": 0.8980534508884735,
+        "residual": 0.49322634986106284
+      }
+    },
+    {
+      "r_s": 3.0500000000000003,
+      "grad_inf": 3.490137262529558e-09,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.031393305974887944,
+      "n_negative_hessian": 0,
+      "energy": 0.006833473574309976,
+      "mac": {
+        "alpha": 0.8963667364638821,
+        "residual": 0.5060547871428791,
+        "mac_min": 0.2975540879818006,
+        "mac_median": 0.826684031521864,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8957821983390526,
+          "residual": 0.0018943183587258978
+        }
+      },
+      "subspace": {
+        "alpha": 0.8963667364638821,
+        "max_rel_resid": 0.5060547871428791,
+        "n_groups": 20,
+        "min_principal_cos": 0.5454851858499923,
+        "mean_principal_cos": 0.848311338749521
+      },
+      "rank": {
+        "alpha": 0.8963667364638821,
+        "residual": 0.5060547871428791
+      }
+    },
+    {
+      "r_s": 3.1,
+      "grad_inf": 3.914435511842562e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.032042700364182074,
+      "n_negative_hessian": 0,
+      "energy": 0.006820328585563753,
+      "mac": {
+        "alpha": 0.894677854721415,
+        "residual": 0.5183551207651682,
+        "mac_min": 0.3057660562563223,
+        "mac_median": 0.8287338893890186,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8941520150646756,
+          "residual": 0.0017265820678501905
+        }
+      },
+      "subspace": {
+        "alpha": 0.894677854721415,
+        "max_rel_resid": 0.5183551207651682,
+        "n_groups": 20,
+        "min_principal_cos": 0.5529611706587746,
+        "mean_principal_cos": 0.8499397087381162
+      },
+      "rank": {
+        "alpha": 0.894677854721415,
+        "residual": 0.5183551207651682
+      }
+    },
+    {
+      "r_s": 3.1500000000000004,
+      "grad_inf": 4.292308723730098e-09,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.03267427885638059,
+      "n_negative_hessian": 0,
+      "energy": 0.0068142148248902384,
+      "mac": {
+        "alpha": 0.892986707407865,
+        "residual": 0.5301949447712317,
+        "mac_min": 0.3136404220433886,
+        "mac_median": 0.830640043489252,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8925228656621804,
+          "residual": 0.0015511260160780496
+        }
+      },
+      "subspace": {
+        "alpha": 0.892986707407865,
+        "max_rel_resid": 0.5301949447712317,
+        "n_groups": 20,
+        "min_principal_cos": 0.5600360899472359,
+        "mean_principal_cos": 0.851409633947614
+      },
+      "rank": {
+        "alpha": 0.892986707407865,
+        "residual": 0.5301949447712317
+      }
+    },
+    {
+      "r_s": 3.2,
+      "grad_inf": 8.234703197107507e-11,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.033290466900456235,
+      "n_negative_hessian": 0,
+      "energy": 0.006815091124748928,
+      "mac": {
+        "alpha": 0.8912931770318873,
+        "residual": 0.5416269855296328,
+        "mac_min": 0.3212170026259326,
+        "mac_median": 0.832419327325618,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.890894703716416,
+          "residual": 0.0013680056188605024
+        }
+      },
+      "subspace": {
+        "alpha": 0.8912931770318873,
+        "max_rel_resid": 0.5416269855296328,
+        "n_groups": 20,
+        "min_principal_cos": 0.5667600926546724,
+        "mean_principal_cos": 0.852734925652966
+      },
+      "rank": {
+        "alpha": 0.8912931770318873,
+        "residual": 0.5416269855296328
+      }
+    },
+    {
+      "r_s": 3.25,
+      "grad_inf": 2.7147416259420964e-11,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.033893749092027754,
+      "n_negative_hessian": 0,
+      "energy": 0.00682291546905105,
+      "mac": {
+        "alpha": 0.8895971380357771,
+        "residual": 0.5526951519465948,
+        "mac_min": 0.3285300989601374,
+        "mac_median": 0.8340857155903563,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8892674816187734,
+          "residual": 0.0011772847875045874
+        }
+      },
+      "subspace": {
+        "alpha": 0.8895971380357771,
+        "max_rel_resid": 0.5526951519465948,
+        "n_groups": 20,
+        "min_principal_cos": 0.5731754521611488,
+        "mean_principal_cos": 0.8539272986764159
+      },
+      "rank": {
+        "alpha": 0.8895971380357771,
+        "residual": 0.5526951519465948
+      }
+    },
+    {
+      "r_s": 3.3000000000000003,
+      "grad_inf": 1.1007861289158427e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.03448579575249317,
+      "n_negative_hessian": 0,
+      "energy": 0.006837645126134406,
+      "mac": {
+        "alpha": 0.8878984482399647,
+        "residual": 0.563434866096017,
+        "mac_min": 0.3346848848888301,
+        "mac_median": 0.8356509056446839,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.887641144934107,
+          "residual": 0.0009790247269759235
+        }
+      },
+      "subspace": {
+        "alpha": 0.8878984482399647,
+        "max_rel_resid": 0.563434866096017,
+        "n_groups": 20,
+        "min_principal_cos": 0.5785195630994945,
+        "mean_principal_cos": 0.8549969901716541
+      },
+      "rank": {
+        "alpha": 0.8878984482399647,
+        "residual": 0.563434866096017
+      }
+    },
+    {
+      "r_s": 3.35,
+      "grad_inf": 2.3561359252521896e-09,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.03506810050051475,
+      "n_negative_hessian": 0,
+      "energy": 0.006859236745661657,
+      "mac": {
+        "alpha": 0.8861969526643036,
+        "residual": 0.5738758460958112,
+        "mac_min": 0.3381659446688607,
+        "mac_median": 0.8371247672606597,
+        "n_below_0_5": 2,
+        "high_mac": {
+          "n": 12,
+          "alpha": 0.8860156352600962,
+          "residual": 0.0007732885406108167
+        }
+      },
+      "subspace": {
+        "alpha": 0.8861969526643036,
+        "max_rel_resid": 0.5738758460958112,
+        "n_groups": 20,
+        "min_principal_cos": 0.5815203733910452,
+        "mean_principal_cos": 0.8559533166098532
+      },
+      "rank": {
+        "alpha": 0.8861969526643036,
+        "residual": 0.5738758460958112
+      }
+    },
+    {
+      "r_s": 3.4000000000000004,
+      "grad_inf": 0.03270530046303155,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.03732736561997617,
+      "n_negative_hessian": 0,
+      "energy": 0.006935442254477176
+    },
+    {
+      "r_s": 3.45,
+      "grad_inf": 0.03585775220770959,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.04045943382233854,
+      "n_negative_hessian": 0,
+      "energy": 0.007133374334348784
+    },
+    {
+      "r_s": 3.5,
+      "grad_inf": 0.03552898399920502,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.04430603277359725,
+      "n_negative_hessian": 0,
+      "energy": 0.0074428183848606
+    },
+    {
+      "r_s": 3.5500000000000003,
+      "grad_inf": 0.03546698422860485,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.3023380906083504,
+      "n_negative_hessian": 1,
+      "energy": 0.007829523415995663
+    },
+    {
+      "r_s": 3.6,
+      "grad_inf": 0.03547753513379432,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -1.679080198553611,
+      "n_negative_hessian": 1,
+      "energy": 0.00824346617862792
+    },
+    {
+      "r_s": 3.6500000000000004,
+      "grad_inf": 0.0355530233560466,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -2.510351540106857,
+      "n_negative_hessian": 1,
+      "energy": 0.008628133192182781
+    },
+    {
+      "r_s": 3.7,
+      "grad_inf": 1.2912587665780961e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.062230756399070504,
+      "n_negative_hessian": 0,
+      "energy": 0.008116544927664287,
+      "mac": {
+        "alpha": 0.856800706741654,
+        "residual": 0.7760624769059443,
+        "mac_min": 0.4742632405182876,
+        "mac_median": 0.9091682235134434,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8638220176379767,
+          "residual": 0.02200174863407152
+        }
+      },
+      "subspace": {
+        "alpha": 0.856800706741654,
+        "max_rel_resid": 0.7760624769059443,
+        "n_groups": 20,
+        "min_principal_cos": 0.6886677286749304,
+        "mean_principal_cos": 0.8949394661759749
+      },
+      "rank": {
+        "alpha": 0.856800706741654,
+        "residual": 0.7760624769059443
+      }
+    },
+    {
+      "r_s": 3.75,
+      "grad_inf": 9.750533713770437e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06337773900367437,
+      "n_negative_hessian": 0,
+      "energy": 0.008088361717775267,
+      "mac": {
+        "alpha": 0.8552357294498878,
+        "residual": 0.7895141528482682,
+        "mac_min": 0.46800361819606134,
+        "mac_median": 0.9099228064114921,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8622869519238343,
+          "residual": 0.022276077560822474
+        }
+      },
+      "subspace": {
+        "alpha": 0.8552357294498878,
+        "max_rel_resid": 0.7895141528482682,
+        "n_groups": 20,
+        "min_principal_cos": 0.6841078995275972,
+        "mean_principal_cos": 0.8948504151128505
+      },
+      "rank": {
+        "alpha": 0.8552357294498878,
+        "residual": 0.7895141528482682
+      }
+    },
+    {
+      "r_s": 3.8000000000000003,
+      "grad_inf": 2.6578995948600692e-11,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06449774343725258,
+      "n_negative_hessian": 0,
+      "energy": 0.00806697257744262,
+      "mac": {
+        "alpha": 0.8536653518261815,
+        "residual": 0.8025896651949721,
+        "mac_min": 0.4615170122215827,
+        "mac_median": 0.9106170096444174,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8607512756513365,
+          "residual": 0.022560449722970343
+        }
+      },
+      "subspace": {
+        "alpha": 0.8536653518261815,
+        "max_rel_resid": 0.8025896651949721,
+        "n_groups": 20,
+        "min_principal_cos": 0.6793504340335573,
+        "mean_principal_cos": 0.8947111874370492
+      },
+      "rank": {
+        "alpha": 0.8536653518261815,
+        "residual": 0.8025896651949721
+      }
+    },
+    {
+      "r_s": 3.85,
+      "grad_inf": 1.4944295800844998e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06559331043859942,
+      "n_negative_hessian": 0,
+      "energy": 0.008052335459561036,
+      "mac": {
+        "alpha": 0.8520895091988984,
+        "residual": 0.8153245144992485,
+        "mac_min": 0.45482462208518903,
+        "mac_median": 0.9112530282858462,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8592150146539798,
+          "residual": 0.02285432602438354
+        }
+      },
+      "subspace": {
+        "alpha": 0.8520895091988984,
+        "max_rel_resid": 0.8153245144992485,
+        "n_groups": 20,
+        "min_principal_cos": 0.6744068668728018,
+        "mean_principal_cos": 0.8945232965373086
+      },
+      "rank": {
+        "alpha": 0.8520895091988984,
+        "residual": 0.8153245144992485
+      }
+    },
+    {
+      "r_s": 3.9000000000000004,
+      "grad_inf": 1.3331002968186567e-13,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06666660300549282,
+      "n_negative_hessian": 0,
+      "energy": 0.008044407517696379,
+      "mac": {
+        "alpha": 0.8505081032034868,
+        "residual": 0.8277496133035962,
+        "mac_min": 0.44795387932025854,
+        "mac_median": 0.9118325194386223,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.857678182715568,
+          "residual": 0.02315716460172188
+        }
+      },
+      "subspace": {
+        "alpha": 0.8505081032034868,
+        "max_rel_resid": 0.8277496133035962,
+        "n_groups": 20,
+        "min_principal_cos": 0.6692935673680561,
+        "mean_principal_cos": 0.8942886406792706
+      },
+      "rank": {
+        "alpha": 0.8505081032034868,
+        "residual": 0.8277496133035962
+      }
+    },
+    {
+      "r_s": 3.95,
+      "grad_inf": 9.288403379770216e-14,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06771946385281118,
+      "n_negative_hessian": 0,
+      "energy": 0.008043145134285997,
+      "mac": {
+        "alpha": 0.8489210014905496,
+        "residual": 0.8398920130852927,
+        "mac_min": 0.4409382464672143,
+        "mac_median": 0.9123566809409606,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8561407816484763,
+          "residual": 0.023468419960317018
+        }
+      },
+      "subspace": {
+        "alpha": 0.8489210014905496,
+        "max_rel_resid": 0.8398920130852927,
+        "n_groups": 20,
+        "min_principal_cos": 0.6640318113367869,
+        "mean_principal_cos": 0.8940095604169127
+      },
+      "rank": {
+        "alpha": 0.8489210014905496,
+        "residual": 0.8398920130852927
+      }
+    },
+    {
+      "r_s": 4.0,
+      "grad_inf": 1.3664622385001213e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06875346252331263,
+      "n_negative_hessian": 0,
+      "energy": 0.008048503931613585,
+      "mac": {
+        "alpha": 0.8473280368261449,
+        "residual": 0.851775482220004,
+        "mac_min": 0.4338168794233758,
+        "mac_median": 0.9128263132788896,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8546028011878054,
+          "residual": 0.023787542265053693
+        }
+      },
+      "subspace": {
+        "alpha": 0.8473280368261449,
+        "max_rel_resid": 0.851775482220004,
+        "n_groups": 20,
+        "min_principal_cos": 0.6586477658228074,
+        "mean_principal_cos": 0.8936888807752025
+      },
+      "rank": {
+        "alpha": 0.8473280368261449,
+        "residual": 0.851775482220004
+      }
+    },
+    {
+      "r_s": 4.05,
+      "grad_inf": 2.6990506010737825e-10,
+      "stationary": true,
+      "at_bound": false,
+      "min_hessian_eig": 0.06976991640991322,
+      "n_negative_hessian": 0,
+      "energy": 0.008060438767262578,
+      "mac": {
+        "alpha": 0.8457290053078226,
+        "residual": 0.8634209214269163,
+        "mac_min": 0.4266341800579667,
+        "mac_median": 0.9132418681053788,
+        "n_below_0_5": 1,
+        "high_mac": {
+          "n": 13,
+          "alpha": 0.8530642185170166,
+          "residual": 0.024113977128545672
+        }
+      },
+      "subspace": {
+        "alpha": 0.8457290053078226,
+        "max_rel_resid": 0.8634209214269163,
+        "n_groups": 20,
+        "min_principal_cos": 0.6531723968891877,
+        "mean_principal_cos": 0.8933299399289243
+      },
+      "rank": {
+        "alpha": 0.8457290053078226,
+        "residual": 0.8634209214269163
+      }
+    },
+    {
+      "r_s": 4.1000000000000005,
+      "grad_inf": 0.003953293021754418,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.07150542278248712,
+      "n_negative_hessian": 0,
+      "energy": 0.008079632885505913
+    },
+    {
+      "r_s": 4.15,
+      "grad_inf": 0.03253641972586691,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.07738334665902125,
+      "n_negative_hessian": 0,
+      "energy": 0.008161761649764522
+    },
+    {
+      "r_s": 4.2,
+      "grad_inf": 0.033487292992760084,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.0821488873695076,
+      "n_negative_hessian": 0,
+      "energy": 0.00833001072843434
+    },
+    {
+      "r_s": 4.25,
+      "grad_inf": 0.034450850398195544,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": 0.07583865056888034,
+      "n_negative_hessian": 0,
+      "energy": 0.0085620087554456
+    },
+    {
+      "r_s": 4.3,
+      "grad_inf": 0.03537819305258828,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -0.7718096024070549,
+      "n_negative_hessian": 1,
+      "energy": 0.008823602915077392
+    },
+    {
+      "r_s": 4.3500000000000005,
+      "grad_inf": 0.030585170310887554,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -1.767055115980521,
+      "n_negative_hessian": 1,
+      "energy": 0.009074553501266446
+    },
+    {
+      "r_s": 4.4,
+      "grad_inf": 0.016232662775468785,
+      "stationary": false,
+      "at_bound": true,
+      "min_hessian_eig": -1.7874332604048235,
+      "n_negative_hessian": 1,
+      "energy": 0.009254409182686945
+    }
+  ]
+}

@@ -1,0 +1,2725 @@
+{
+  "kind": "SSZ-FK ordering-constraint probe V2 (ChatGPT round-II task)",
+  "scope": "EFFECTIVE_MODEL_ONLY; geometric ordering constraint r_{i+1}-r_i>=eps replaces the per-site box; no astrophysical or QNM claims",
+  "motivation": "Box |u|<=0.45*dr is sufficient but not necessary for ordering u_{i+1}-u_i > -dr; KKT boundary hit alone does not prove a physical fold (counterexample U=(u-mu)^2/2, |u|<=a).",
+  "config": {
+    "sites": 40,
+    "eps_fracs": [
+      0.05,
+      0.2,
+      0.5
+    ],
+    "k_random": 4,
+    "seed": 1104,
+    "v0_bound": 2.0,
+    "gap_upper": 0.5,
+    "grad_tol": 1e-06,
+    "intervals": {
+      "gap1": [
+        0.2795,
+        0.8998
+      ],
+      "gap2": [
+        1.858,
+        2.3498
+      ],
+      "gap3": [
+        2.6057,
+        2.9502
+      ],
+      "endzone_a": [
+        3.35,
+        3.45
+      ],
+      "endzone_b": [
+        4.05,
+        4.1
+      ]
+    }
+  },
+  "box_reference_summary": {
+    "n_points_total": 116,
+    "n_admissible": 43,
+    "n_admissible_with_multiple_minima": 0,
+    "n_inadmissible_but_saddle_found": 0,
+    "n_inadmissible_pure_optimizer_failure": 73,
+    "hysteresis_points": 0
+  },
+  "unconstrained_continuation": {
+    "rows": [
+      {
+        "converged": true,
+        "grad_inf": 1.032472718431876e-13,
+        "energy": 0.0077503812024675685,
+        "min_hessian_eig": 0.022880568889527452,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04589413136756093,
+        "r_s": 0.0
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.8024054471155182e-12,
+        "energy": 0.0077438158709650425,
+        "min_hessian_eig": 0.022334732286172228,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04580341707681512,
+        "r_s": 0.05
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.2762568779578487e-12,
+        "energy": 0.007745225409858186,
+        "min_hessian_eig": 0.02177140100872399,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04572847560657145,
+        "r_s": 0.1
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.019240247757125e-12,
+        "energy": 0.007754554984001835,
+        "min_hessian_eig": 0.021190330701722625,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04566978209373396,
+        "r_s": 0.15000000000000002
+      },
+      {
+        "converged": true,
+        "grad_inf": 9.515305210427982e-13,
+        "energy": 0.007771749437287077,
+        "min_hessian_eig": 0.02059181228391481,
+        "n_negative_hessian": 0,
+        "min_gap": 0.045606436699214825,
+        "r_s": 0.2
+      },
+      {
+        "converged": true,
+        "grad_inf": 9.839767889374684e-13,
+        "energy": 0.007796753179727629,
+        "min_hessian_eig": 0.019976430287003903,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04555054621042309,
+        "r_s": 0.25
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.0152434448684744e-12,
+        "energy": 0.007829510043887015,
+        "min_hessian_eig": 0.019344719701628873,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04547359024559405,
+        "r_s": 0.30000000000000004
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.205174848806223e-12,
+        "energy": 0.007869963097967846,
+        "min_hessian_eig": 0.018696894964767043,
+        "n_negative_hessian": 0,
+        "min_gap": 0.045338573586924724,
+        "r_s": 0.35000000000000003
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.2618933675767607e-12,
+        "energy": 0.007918054397624986,
+        "min_hessian_eig": 0.0180328254994034,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04522454434351886,
+        "r_s": 0.4
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.5282497489721436e-12,
+        "energy": 0.007973724652711655,
+        "min_hessian_eig": 0.01735230582757707,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04513494830645293,
+        "r_s": 0.45
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.1322527077316522e-12,
+        "energy": 0.008036912777998756,
+        "min_hessian_eig": 0.016655439156127872,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04503933030345664,
+        "r_s": 0.5
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.8664015605528448e-12,
+        "energy": 0.008107555284289282,
+        "min_hessian_eig": 0.015942750917101473,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04494153971278969,
+        "r_s": 0.55
+      },
+      {
+        "converged": true,
+        "grad_inf": 3.5880326487713887e-12,
+        "energy": 0.00818558543881211,
+        "min_hessian_eig": 0.015214674148667106,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04486249302315137,
+        "r_s": 0.6000000000000001
+      },
+      {
+        "converged": true,
+        "grad_inf": 4.247616147701194e-12,
+        "energy": 0.008270932063460181,
+        "min_hessian_eig": 0.014470411321783613,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04480905314400552,
+        "r_s": 0.65
+      },
+      {
+        "converged": true,
+        "grad_inf": 4.528807884263131e-12,
+        "energy": 0.008363517717846946,
+        "min_hessian_eig": 0.013706520208332146,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04473140957963295,
+        "r_s": 0.7000000000000001
+      },
+      {
+        "converged": true,
+        "grad_inf": 4.361344618786234e-12,
+        "energy": 0.008463255779144505,
+        "min_hessian_eig": 0.01291470935303858,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04465763460665784,
+        "r_s": 0.75
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.850608638027552e-12,
+        "energy": 0.008570045431512213,
+        "min_hessian_eig": 0.01207507747279272,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04454275512579997,
+        "r_s": 0.8
+      },
+      {
+        "converged": true,
+        "grad_inf": 9.444806048364285e-13,
+        "energy": 0.008683762222083103,
+        "min_hessian_eig": 0.011136634762214392,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04444605575455718,
+        "r_s": 0.8500000000000001
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.5595857938421887e-13,
+        "energy": 0.008804237059419203,
+        "min_hessian_eig": 0.009966188579566028,
+        "n_negative_hessian": 0,
+        "min_gap": 0.044408317328080926,
+        "r_s": 0.9
+      },
+      {
+        "converged": true,
+        "grad_inf": 8.424816400065538e-11,
+        "energy": 0.008931193314932761,
+        "min_hessian_eig": 0.008096175987197028,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04429378462013922,
+        "r_s": 0.9500000000000001
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.000502076492048753,
+        "energy": 0.009063377013300202,
+        "min_hessian_eig": -0.0023033688119558807,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04418621368477815,
+        "r_s": 1.0
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.0015199031325675572,
+        "energy": 0.009198041854151141,
+        "min_hessian_eig": -0.03130916087339368,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04402043453182003,
+        "r_s": 1.05
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.002290181652595008,
+        "energy": 0.009317498729405821,
+        "min_hessian_eig": -0.14601377614181862,
+        "n_negative_hessian": 1,
+        "min_gap": 0.044087911781643285,
+        "r_s": 1.1
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.007548112814732499,
+        "energy": 0.009384843462231464,
+        "min_hessian_eig": -0.4078348806976255,
+        "n_negative_hessian": 1,
+        "min_gap": 0.043985132858558984,
+        "r_s": 1.1500000000000001
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.01917375251462449,
+        "energy": 0.009306485267532697,
+        "min_hessian_eig": -0.9730980190495138,
+        "n_negative_hessian": 1,
+        "min_gap": 0.043947939735781816,
+        "r_s": 1.2000000000000002
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.11245180725969509,
+        "energy": 0.007918119993308688,
+        "min_hessian_eig": -0.5099590596798989,
+        "n_negative_hessian": 1,
+        "min_gap": 0.043601512074797455,
+        "r_s": 1.25
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.022966596152080892,
+        "energy": 0.009787165054563382,
+        "min_hessian_eig": -0.45427992268089745,
+        "n_negative_hessian": 1,
+        "min_gap": 0.043672476801974724,
+        "r_s": 1.3
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.048960051103187546,
+        "energy": 0.004914596690460401,
+        "min_hessian_eig": -0.7608249378946647,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04265277365381159,
+        "r_s": 1.35
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07080223107669878,
+        "energy": 0.014159297877881193,
+        "min_hessian_eig": -2.5977176300915246,
+        "n_negative_hessian": 3,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.4000000000000001
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07158285677708316,
+        "energy": 0.014068931084774888,
+        "min_hessian_eig": -3.0920166741643142,
+        "n_negative_hessian": 3,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.4500000000000002
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.044639352774355504,
+        "energy": 0.013558816335364487,
+        "min_hessian_eig": -3.051896485377798,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04340655479510147,
+        "r_s": 1.5
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06404141732593141,
+        "energy": 0.013568929866420526,
+        "min_hessian_eig": -3.612613923870393,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.55
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06740154296071972,
+        "energy": 0.013302939566426314,
+        "min_hessian_eig": -3.5206948487112,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.6
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06963352862095898,
+        "energy": 0.013102844720386952,
+        "min_hessian_eig": -3.1756907652876816,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.6500000000000001
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07066195772198927,
+        "energy": 0.012995361429171421,
+        "min_hessian_eig": -2.6162659883307486,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.7000000000000002
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07045329640461506,
+        "energy": 0.012976874919588821,
+        "min_hessian_eig": -1.944472246255417,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 1.75
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.01691715198093835,
+        "energy": 0.005904271185615903,
+        "min_hessian_eig": -0.02527927362000956,
+        "n_negative_hessian": 1,
+        "min_gap": 0.042590665872133115,
+        "r_s": 1.8
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.029033226963805045,
+        "energy": 0.005911682496855577,
+        "min_hessian_eig": -0.3540912571529707,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04233230262361509,
+        "r_s": 1.85
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.007661424048731047,
+        "energy": 0.0061774560886611995,
+        "min_hessian_eig": -0.14563951413282675,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04287848477768463,
+        "r_s": 1.9000000000000001
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.047019095469616884,
+        "energy": 0.006116834556758247,
+        "min_hessian_eig": -0.5390380513595638,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04094554889761959,
+        "r_s": 1.9500000000000002
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.010283655480564119,
+        "energy": 0.006414401618774963,
+        "min_hessian_eig": -0.276496624910733,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04275313792684443,
+        "r_s": 2.0
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.025125138841468657,
+        "energy": 0.006473469157679431,
+        "min_hessian_eig": -1.142435485997276,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04352597632411559,
+        "r_s": 2.0500000000000003
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07056982233811286,
+        "energy": 0.011918411762596275,
+        "min_hessian_eig": -3.4852072737559725,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.1
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06865361194858005,
+        "energy": 0.011465132617425662,
+        "min_hessian_eig": -2.4566686925531944,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.15
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07245558942227688,
+        "energy": 0.0110979050916985,
+        "min_hessian_eig": -1.1483999912198406,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.2
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.04635512261908124,
+        "energy": 0.010112763885758883,
+        "min_hessian_eig": -2.7255473084697037,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04318649637994909,
+        "r_s": 2.25
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.028757676000199163,
+        "energy": 0.010640001145315287,
+        "min_hessian_eig": -1.6480711234051721,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04225062833431714,
+        "r_s": 2.3000000000000003
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.028187820962855645,
+        "energy": 0.010554907981493094,
+        "min_hessian_eig": -1.9463782410945991,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04254196058976234,
+        "r_s": 2.35
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.025044563193426295,
+        "energy": 0.010711999458860668,
+        "min_hessian_eig": -1.8068866717078567,
+        "n_negative_hessian": 1,
+        "min_gap": 0.04255239196726812,
+        "r_s": 2.4000000000000004
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06979866490339834,
+        "energy": 0.013573252657755502,
+        "min_hessian_eig": -2.7946538626379573,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.45
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06330048658309884,
+        "energy": 0.015058703644153055,
+        "min_hessian_eig": -2.9924193442058846,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.5
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.05400216883131166,
+        "energy": 0.01668945639279792,
+        "min_hessian_eig": -3.143554383777995,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.5500000000000003
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.04465141427254256,
+        "energy": 0.018303232194406795,
+        "min_hessian_eig": -3.2731692779068045,
+        "n_negative_hessian": 3,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.6
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.035665376659418144,
+        "energy": 0.019725467535748834,
+        "min_hessian_eig": -3.4462609264992268,
+        "n_negative_hessian": 4,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.6500000000000004
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.035411146797067763,
+        "energy": 0.020792992839720505,
+        "min_hessian_eig": -3.5173967908893258,
+        "n_negative_hessian": 5,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.7
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.03506940917233916,
+        "energy": 0.021377153800207785,
+        "min_hessian_eig": -3.6287274789038455,
+        "n_negative_hessian": 5,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.75
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.034641017640973076,
+        "energy": 0.02140281858171442,
+        "min_hessian_eig": -3.9718273425965007,
+        "n_negative_hessian": 5,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.8000000000000003
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.0275647174861725,
+        "energy": 0.020225849420337706,
+        "min_hessian_eig": -2.7741648090418143,
+        "n_negative_hessian": 3,
+        "min_gap": 0.043221007147367985,
+        "r_s": 2.85
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.05007299753908366,
+        "energy": 0.01980804140909662,
+        "min_hessian_eig": -3.512927693258467,
+        "n_negative_hessian": 4,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.9000000000000004
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06144507956625116,
+        "energy": 0.01836606111792838,
+        "min_hessian_eig": -3.389600989245456,
+        "n_negative_hessian": 3,
+        "min_gap": 0.04429378462013922,
+        "r_s": 2.95
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06965053207387067,
+        "energy": 0.016700059227863207,
+        "min_hessian_eig": -3.153337162503747,
+        "n_negative_hessian": 3,
+        "min_gap": 0.04429378462013922,
+        "r_s": 3.0
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.0524379205640249,
+        "energy": 0.014557915894005114,
+        "min_hessian_eig": -2.244340258650458,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04243643463940039,
+        "r_s": 3.0500000000000003
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.07272401034732509,
+        "energy": 0.013451531791845658,
+        "min_hessian_eig": -2.3378573774125377,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 3.1
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06719238168088981,
+        "energy": 0.012217021086484982,
+        "min_hessian_eig": -1.8721188931311377,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 3.1500000000000004
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.06356311505836418,
+        "energy": 0.01140843000890425,
+        "min_hessian_eig": -1.5933376825432828,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 3.2
+      },
+      {
+        "converged": false,
+        "grad_inf": 0.0685804806724005,
+        "energy": 0.011076478997796785,
+        "min_hessian_eig": -1.4464554587380813,
+        "n_negative_hessian": 2,
+        "min_gap": 0.04429378462013922,
+        "r_s": 3.25
+      },
+      {
+        "converged": true,
+        "grad_inf": 4.04794253672236e-13,
+        "energy": 0.005480498375916357,
+        "min_hessian_eig": 0.059058218849331046,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04709970777562056,
+        "r_s": 3.3000000000000003
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.1652174497788224e-09,
+        "energy": 0.005612185354472374,
+        "min_hessian_eig": 0.05987033134585888,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04702062146633956,
+        "r_s": 3.35
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.5354876392880143e-09,
+        "energy": 0.0057502952991234585,
+        "min_hessian_eig": 0.060669322437271495,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04694178461865839,
+        "r_s": 3.4000000000000004
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.098218738171397e-13,
+        "energy": 0.005894782966200942,
+        "min_hessian_eig": 0.061455509648402976,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04686319815343154,
+        "r_s": 3.45
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.382366443536398e-13,
+        "energy": 0.006045602811654111,
+        "min_hessian_eig": 0.062229298160185326,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046784862999000865,
+        "r_s": 3.5
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.5591000712689151e-13,
+        "energy": 0.006202708957212418,
+        "min_hessian_eig": 0.06299075566237032,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046706780152387495,
+        "r_s": 3.5500000000000003
+      },
+      {
+        "converged": true,
+        "grad_inf": 3.6951929953399354e-09,
+        "energy": 0.006366055149785652,
+        "min_hessian_eig": 0.06374005700319635,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04662895065839123,
+        "r_s": 3.6
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.7740618314665557e-09,
+        "energy": 0.00653559471362967,
+        "min_hessian_eig": 0.06447692313245955,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04655137568765255,
+        "r_s": 3.6500000000000004
+      },
+      {
+        "converged": true,
+        "grad_inf": 3.8969127820476235e-09,
+        "energy": 0.006711280494540934,
+        "min_hessian_eig": 0.06520156811340344,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046474056466031755,
+        "r_s": 3.7
+      },
+      {
+        "converged": true,
+        "grad_inf": 9.808820422563258e-14,
+        "energy": 0.006893064795093952,
+        "min_hessian_eig": 0.06591356322133711,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04639699441622902,
+        "r_s": 3.75
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.189465193007777e-13,
+        "energy": 0.007080899299678372,
+        "min_hessian_eig": 0.06661298873214713,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046320191069458616,
+        "r_s": 3.8000000000000003
+      },
+      {
+        "converged": true,
+        "grad_inf": 9.33975119465913e-14,
+        "energy": 0.007274734987671766,
+        "min_hessian_eig": 0.06729944427713808,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046243648203020626,
+        "r_s": 3.85
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.0922512894140368e-13,
+        "energy": 0.0074745220326886234,
+        "min_hessian_eig": 0.06797254751442164,
+        "n_negative_hessian": 0,
+        "min_gap": 0.046167367829358597,
+        "r_s": 3.9000000000000004
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.455363607405502e-13,
+        "energy": 0.007680209685261957,
+        "min_hessian_eig": 0.06863180051392559,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04609135225875072,
+        "r_s": 3.95
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.243033453945941e-13,
+        "energy": 0.007891746135547256,
+        "min_hessian_eig": 0.06927656212875648,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04601560416140771,
+        "r_s": 4.0
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.7366049327727229e-09,
+        "energy": 0.00810907835169581,
+        "min_hessian_eig": 0.06990606247845305,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04594012663817537,
+        "r_s": 4.05
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.6887879983329412e-13,
+        "energy": 0.008332151888193692,
+        "min_hessian_eig": 0.07051910072338881,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04586492334636283,
+        "r_s": 4.1000000000000005
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.53642023183287e-09,
+        "energy": 0.008560910656660927,
+        "min_hessian_eig": 0.07111456737781384,
+        "n_negative_hessian": 0,
+        "min_gap": 0.045789998552459465,
+        "r_s": 4.15
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.5758645985353148e-09,
+        "energy": 0.008795296649100183,
+        "min_hessian_eig": 0.07169051844891675,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04571535738923593,
+        "r_s": 4.2
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.7997082464870093e-09,
+        "energy": 0.009035249599968962,
+        "min_hessian_eig": 0.07224492582531229,
+        "n_negative_hessian": 0,
+        "min_gap": 0.045641005957136827,
+        "r_s": 4.25
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.160460616489445e-13,
+        "energy": 0.009280706568298951,
+        "min_hessian_eig": 0.07277475151216214,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04556695169248748,
+        "r_s": 4.3
+      },
+      {
+        "converged": true,
+        "grad_inf": 1.434761559560016e-09,
+        "energy": 0.009531601413270245,
+        "min_hessian_eig": 0.07327654888042348,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04549320363580733,
+        "r_s": 4.3500000000000005
+      },
+      {
+        "converged": true,
+        "grad_inf": 2.231982456496473e-09,
+        "energy": 0.009787864124873763,
+        "min_hessian_eig": 0.07374526817952763,
+        "n_negative_hessian": 0,
+        "min_gap": 0.04541977306080902,
+        "r_s": 4.4
+      }
+    ],
+    "lambda_zero_crossings": [],
+    "n_converged": 43
+  },
+  "per_eps": {
+    "eps_frac_0.05": {
+      "eps": 0.0025000000000000005,
+      "intervals": {
+        "gap1": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0027056826660828864,
+              "grad_inf": 1.2010858598671126e-07,
+              "min_hessian_eig": 4.169991272060433,
+              "energy_spread": 0.008058877555967823,
+              "r_s": 0.22950000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0024921470068490987,
+              "grad_inf": 9.930830277560254e-08,
+              "min_hessian_eig": 4.186768521632229,
+              "energy_spread": 0.0026219457944750306,
+              "r_s": 0.2795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002287791543905943,
+              "grad_inf": 1.0602157769767917e-07,
+              "min_hessian_eig": 4.202862944678319,
+              "energy_spread": 0.008771773404187454,
+              "r_s": 0.3295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0020925515878593842,
+              "grad_inf": 8.780236728997415e-08,
+              "min_hessian_eig": 4.218328200971249,
+              "energy_spread": 0.005762170269940468,
+              "r_s": 0.3795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0019063630145183562,
+              "grad_inf": 2.4292278121701427e-07,
+              "min_hessian_eig": 4.233213733163917,
+              "energy_spread": 0.0029837075776221397,
+              "r_s": 0.4295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0016803482529364289,
+              "grad_inf": 5.0962112637525925e-08,
+              "min_hessian_eig": 4.247263756068204,
+              "energy_spread": 7.534278223178992e-05,
+              "r_s": 0.4795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0015082900516572057,
+              "grad_inf": 5.19507645097006e-08,
+              "min_hessian_eig": 4.261088292629555,
+              "energy_spread": 0.006550973287823631,
+              "r_s": 0.5295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0013453201349589155,
+              "grad_inf": 4.9576118954855475e-08,
+              "min_hessian_eig": 4.274453793921663,
+              "energy_spread": 0.006807383849240148,
+              "r_s": 0.5794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0011913715094637987,
+              "grad_inf": 1.1744793250619001e-07,
+              "min_hessian_eig": 4.2873931855683445,
+              "energy_spread": 0.007043688306179717,
+              "r_s": 0.6295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0010463778408220073,
+              "grad_inf": 3.437536782134598e-07,
+              "min_hessian_eig": 4.299935896318193,
+              "energy_spread": 0.007278309498072552,
+              "r_s": 0.6795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0009102734477867195,
+              "grad_inf": 7.090902654459386e-08,
+              "min_hessian_eig": 4.312108599064235,
+              "energy_spread": 0.003747558611284599,
+              "r_s": 0.7294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0006808313512940551,
+              "grad_inf": 1.4181134790243466e-07,
+              "min_hessian_eig": 4.323454437266401,
+              "energy_spread": 0.00784458471512923,
+              "r_s": 0.7794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0005579517988951734,
+              "grad_inf": 1.4568941766011922e-07,
+              "min_hessian_eig": 4.334925972135449,
+              "energy_spread": 0.004084941284459446,
+              "r_s": 0.8294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0004440000315386835,
+              "grad_inf": 4.974984947111322e-07,
+              "min_hessian_eig": 4.34609189683542,
+              "energy_spread": 0.00018367577164797512,
+              "r_s": 0.8795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0003389078241347308,
+              "grad_inf": 6.22238183374535e-08,
+              "min_hessian_eig": 4.356969662735139,
+              "energy_spread": 0.00022498383477595322,
+              "r_s": 0.9294999999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 15
+        },
+        "gap2": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00013111285735268333,
+              "grad_inf": 1.4529638022939273e-07,
+              "min_hessian_eig": 4.510661077718198,
+              "energy_spread": 0.00025517707317414544,
+              "r_s": 1.808
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -8.324609755789303e-05,
+              "grad_inf": 2.8743262960907734e-07,
+              "min_hessian_eig": 4.517430348770024,
+              "energy_spread": 0.0002529628504951497,
+              "r_s": 1.858
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -2.772429512207529e-05,
+              "grad_inf": 5.238081008003548e-08,
+              "min_hessian_eig": 4.523963263437245,
+              "energy_spread": 0.00025039002780042935,
+              "r_s": 1.9080000000000001
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 3.539682382512846e-05,
+              "grad_inf": 9.11975874809054e-08,
+              "min_hessian_eig": 4.5302495109036265,
+              "energy_spread": 0.0002474675442848456,
+              "r_s": 1.9580000000000002
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00010606201167427369,
+              "grad_inf": 1.0377803561899962e-07,
+              "min_hessian_eig": 4.536277044528052,
+              "energy_spread": 0.0002442041576200025,
+              "r_s": 2.008
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00018421648640590173,
+              "grad_inf": 1.1312665672801037e-07,
+              "min_hessian_eig": 4.542031815540195,
+              "energy_spread": 0.0041972406743823855,
+              "r_s": 2.0580000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 4.576797829527644e-05,
+              "grad_inf": 1.4865158523731659e-07,
+              "min_hessian_eig": 4.546250877953823,
+              "energy_spread": 0.004305285304937532,
+              "r_s": 2.1080000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00013796946626657807,
+              "grad_inf": 2.354257444374397e-07,
+              "min_hessian_eig": 4.5513873985063835,
+              "energy_spread": 0.004120889713810108,
+              "r_s": 2.1580000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00023764675187558858,
+              "grad_inf": 6.307491544170485e-08,
+              "min_hessian_eig": 4.556196970451351,
+              "energy_spread": 0.0040542114527450995,
+              "r_s": 2.208
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0003447434249921603,
+              "grad_inf": 1.2687382106198186e-07,
+              "min_hessian_eig": 4.560655332773679,
+              "energy_spread": 0.0038737497229786753,
+              "r_s": 2.2580000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00045920353809120743,
+              "grad_inf": 6.325069419610418e-08,
+              "min_hessian_eig": 4.564734782270532,
+              "energy_spread": 0.0038019320143017113,
+              "r_s": 2.3080000000000007
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0005809715906189931,
+              "grad_inf": 2.621759297959103e-07,
+              "min_hessian_eig": 4.568403425095824,
+              "energy_spread": 0.003497420641856723,
+              "r_s": 2.3580000000000005
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 12
+        },
+        "gap3": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004265383970006465,
+              "grad_inf": 1.4517141307471282e-07,
+              "min_hessian_eig": 0.04116606620560539,
+              "energy_spread": 4.360163045933219e-05,
+              "r_s": 2.5557000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004292725440501835,
+              "grad_inf": 1.2216625696649663e-07,
+              "min_hessian_eig": 0.0422674205445979,
+              "energy_spread": 0.0028960306436981754,
+              "r_s": 2.6057
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0017429997332216159,
+              "grad_inf": 1.708915995917576e-07,
+              "min_hessian_eig": 4.585600652373599,
+              "energy_spread": 0.0026348621832417134,
+              "r_s": 2.6557
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0019020747848454331,
+              "grad_inf": 3.0376127318348933e-08,
+              "min_hessian_eig": 4.584712316892401,
+              "energy_spread": 0.005215847336303569,
+              "r_s": 2.7056999999999998
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0020676487198660865,
+              "grad_inf": 9.477785435987873e-08,
+              "min_hessian_eig": 4.582770288101971,
+              "energy_spread": 0.0024071715094432585,
+              "r_s": 2.7556999999999996
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0022396797321003344,
+              "grad_inf": 1.2177867339188686e-07,
+              "min_hessian_eig": 4.579619093009867,
+              "energy_spread": 0.004694921232539666,
+              "r_s": 2.8056999999999994
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0024181260612465122,
+              "grad_inf": 4.1031036231847784e-08,
+              "min_hessian_eig": 4.575080771415205,
+              "energy_spread": 0.004320129674027753,
+              "r_s": 2.8556999999999992
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0026029459742501304,
+              "grad_inf": 1.6698830731382008e-07,
+              "min_hessian_eig": 4.568956559906169,
+              "energy_spread": 0.006900324762520806,
+              "r_s": 2.905699999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002794097745357034,
+              "grad_inf": 8.594899516753407e-08,
+              "min_hessian_eig": 4.561038058973113,
+              "energy_spread": 0.006476884058552722,
+              "r_s": 2.955699999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 9
+        },
+        "endzone_a": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.005480498375920073,
+              "grad_inf": 2.319703928613942e-07,
+              "min_hessian_eig": 0.05905967396474846,
+              "energy_spread": 0.0031108149092695537,
+              "r_s": 3.3000000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.005612185354473177,
+              "grad_inf": 8.708169171520175e-08,
+              "min_hessian_eig": 0.05987038462655326,
+              "energy_spread": 0.0012470513911951317,
+              "r_s": 3.35
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.005750295299124988,
+              "grad_inf": 4.037000259950185e-08,
+              "min_hessian_eig": 0.06066931373464005,
+              "energy_spread": 0.002680260433256032,
+              "r_s": 3.4
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.005894782966202228,
+              "grad_inf": 9.806253613645066e-08,
+              "min_hessian_eig": 0.06145588227352656,
+              "energy_spread": 0.0024659964966395635,
+              "r_s": 3.4499999999999997
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.006045602811655161,
+              "grad_inf": 1.5403095268706757e-07,
+              "min_hessian_eig": 0.06223035109330386,
+              "energy_spread": 0.002252425220861785,
+              "r_s": 3.4999999999999996
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 5
+        },
+        "endzone_b": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.008048503931614277,
+              "grad_inf": 6.736238821391724e-08,
+              "min_hessian_eig": 0.06875334561224525,
+              "energy_spread": 0.0010075751506208944,
+              "r_s": 4.0
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.008036263499388548,
+              "grad_inf": 1.4378191284802888e-07,
+              "min_hessian_eig": 0.06905027587915519,
+              "energy_spread": 0.001010498957371547,
+              "r_s": 4.05
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00805826037960485,
+              "grad_inf": 4.859962180912489e-08,
+              "min_hessian_eig": 0.07005595825717843,
+              "energy_spread": 0.0009117655836642664,
+              "r_s": 4.1
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007971908164496678,
+              "grad_inf": 4.375212070417689e-08,
+              "min_hessian_eig": 0.04199263987257227,
+              "energy_spread": 0.0009280464500729425,
+              "r_s": 4.1499999999999995
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 4
+        }
+      }
+    },
+    "eps_frac_0.2": {
+      "eps": 0.010000000000000002,
+      "intervals": {
+        "gap1": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002679355052051163,
+              "grad_inf": 2.625493900725029e-07,
+              "min_hessian_eig": 4.169841961290013,
+              "energy_spread": 0.005106205645286738,
+              "r_s": 0.22950000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0024608271211626165,
+              "grad_inf": 8.176943325222119e-08,
+              "min_hessian_eig": 4.186589049781212,
+              "energy_spread": 0.005354318498047133,
+              "r_s": 0.2795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00220012175908524,
+              "grad_inf": 1.4070848615085896e-07,
+              "min_hessian_eig": 4.202444720594523,
+              "energy_spread": 0.00565232842065831,
+              "r_s": 0.3295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0019936991081034865,
+              "grad_inf": 1.9661713672458614e-07,
+              "min_hessian_eig": 4.217849826437847,
+              "energy_spread": 0.005903717776530804,
+              "r_s": 0.3795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0017968520452934286,
+              "grad_inf": 5.75979080159883e-08,
+              "min_hessian_eig": 4.23267561660524,
+              "energy_spread": 0.0030932185468446295,
+              "r_s": 0.4295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0016095054907527893,
+              "grad_inf": 6.130627801595456e-08,
+              "min_hessian_eig": 4.246965354669344,
+              "energy_spread": 0.006344981495505296,
+              "r_s": 0.4795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.001431585157033921,
+              "grad_inf": 1.1679506975448284e-07,
+              "min_hessian_eig": 4.260759755565913,
+              "energy_spread": 0.0066461092848844015,
+              "r_s": 0.5295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0012630175427300685,
+              "grad_inf": 1.5686315161730913e-07,
+              "min_hessian_eig": 4.274094994072927,
+              "energy_spread": 0.006868951850483282,
+              "r_s": 0.5794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0011037299254034391,
+              "grad_inf": 6.277982354807587e-08,
+              "min_hessian_eig": 4.287003876152113,
+              "energy_spread": 0.003599981602595054,
+              "r_s": 0.6295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0009536503539326051,
+              "grad_inf": 2.9509071283739807e-08,
+              "min_hessian_eig": 4.299516158065185,
+              "energy_spread": 0.007371036984965399,
+              "r_s": 0.6795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0008127076403625365,
+              "grad_inf": 2.5751534083080785e-07,
+              "min_hessian_eig": 4.3116584979736325,
+              "energy_spread": 0.003836119965366513,
+              "r_s": 0.7294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0006808313512950566,
+              "grad_inf": 2.051702293597718e-07,
+              "min_hessian_eig": 4.3234544992093795,
+              "energy_spread": 0.007747592294517139,
+              "r_s": 0.7794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0005579517988943168,
+              "grad_inf": 2.468049884948864e-08,
+              "min_hessian_eig": 4.334925975556101,
+              "energy_spread": 0.004060006359218442,
+              "r_s": 0.8294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0004440000315383713,
+              "grad_inf": 1.591440344367312e-07,
+              "min_hessian_eig": 4.34609197093908,
+              "energy_spread": 0.004202865406500239,
+              "r_s": 0.8795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0003389078241397784,
+              "grad_inf": 2.1587157787890388e-07,
+              "min_hessian_eig": 4.3569696966338265,
+              "energy_spread": 0.0043040625305669974,
+              "r_s": 0.9294999999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 15
+        },
+        "gap2": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 1.9909215566744158e-05,
+              "grad_inf": 5.413940817444035e-08,
+              "min_hessian_eig": 4.511758254856931,
+              "energy_spread": 0.00010415500025403575,
+              "r_s": 1.808
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00019230098585187454,
+              "grad_inf": 1.5592387862329096e-07,
+              "min_hessian_eig": 4.524237218305694,
+              "energy_spread": 0.0003620177387903114,
+              "r_s": 1.858
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00015299054636949808,
+              "grad_inf": 8.847849764220123e-08,
+              "min_hessian_eig": 4.530930007720466,
+              "energy_spread": 0.00037565627904806974,
+              "r_s": 1.9080000000000001
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00010655002854043782,
+              "grad_inf": 1.8136822288634946e-07,
+              "min_hessian_eig": 4.5373714643575696,
+              "energy_spread": 0.00038941439664175864,
+              "r_s": 1.9580000000000002
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -5.302087394467176e-05,
+              "grad_inf": 4.4551053353381054e-08,
+              "min_hessian_eig": 4.543548529679395,
+              "energy_spread": 0.0004032870432403232,
+              "r_s": 2.008
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 7.555644318048315e-06,
+              "grad_inf": 9.94665370727954e-08,
+              "min_hessian_eig": 4.549446288079686,
+              "energy_spread": 0.00040921775571527006,
+              "r_s": 2.0580000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 7.513841436269881e-05,
+              "grad_inf": 6.379059221389011e-08,
+              "min_hessian_eig": 4.555047198892029,
+              "energy_spread": 0.004275914868868421,
+              "r_s": 2.1080000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00014968647793761272,
+              "grad_inf": 1.1584928659089111e-07,
+              "min_hessian_eig": 4.560331132070853,
+              "energy_spread": 0.004109172702140413,
+              "r_s": 2.1580000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00023115902245914103,
+              "grad_inf": 4.551646618639049e-08,
+              "min_hessian_eig": 4.565274628343345,
+              "energy_spread": 0.004003971225263471,
+              "r_s": 2.208
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0003195153726848494,
+              "grad_inf": 2.3496835558495244e-07,
+              "min_hessian_eig": 4.569850593495972,
+              "energy_spread": 0.003953380189587944,
+              "r_s": 2.2580000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00041471498194577393,
+              "grad_inf": 5.977054832965317e-07,
+              "min_hessian_eig": 4.57402764810012,
+              "energy_spread": 0.0038464205704475283,
+              "r_s": 2.3080000000000007
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0005167174229772741,
+              "grad_inf": 2.1094984102749958e-07,
+              "min_hessian_eig": 4.577769438134865,
+              "energy_spread": 0.003561674809497891,
+              "r_s": 2.3580000000000005
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 12
+        },
+        "gap3": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0015473121509273302,
+              "grad_inf": 1.302013925962714e-07,
+              "min_hessian_eig": 4.583405752722488,
+              "energy_spread": 0.005723151794213373,
+              "r_s": 2.5557000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0016973144293652308,
+              "grad_inf": 1.2614591727959368e-07,
+              "min_hessian_eig": 4.584274845526999,
+              "energy_spread": 0.005491441654836157,
+              "r_s": 2.6057
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0018539398075865104,
+              "grad_inf": 4.4507628265202936e-08,
+              "min_hessian_eig": 4.584348296066557,
+              "energy_spread": 0.005101748045843233,
+              "r_s": 2.6557
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0020171448011997183,
+              "grad_inf": 1.3584619523027142e-07,
+              "min_hessian_eig": 4.583517141178253,
+              "energy_spread": 0.005100777319951625,
+              "r_s": 2.7056999999999998
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0021868860409412845,
+              "grad_inf": 3.690535941534845e-07,
+              "min_hessian_eig": 4.581652257613413,
+              "energy_spread": 0.00480030767995019,
+              "r_s": 2.7556999999999996
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002363120255592214,
+              "grad_inf": 1.2576832407809602e-07,
+              "min_hessian_eig": 4.578602302379714,
+              "energy_spread": 0.004571480709049864,
+              "r_s": 2.8056999999999994
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002545804253890235,
+              "grad_inf": 9.07721991356969e-08,
+              "min_hessian_eig": 4.574191603634472,
+              "energy_spread": 0.004406230280450116,
+              "r_s": 2.8556999999999992
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0027348949052780984,
+              "grad_inf": 1.570788200379314e-07,
+              "min_hessian_eig": 4.568224551163031,
+              "energy_spread": 0.0066729397986541785,
+              "r_s": 2.905699999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002930349119381389,
+              "grad_inf": 5.29777596409986e-08,
+              "min_hessian_eig": 4.560490849278112,
+              "energy_spread": 0.006432823072555284,
+              "r_s": 2.955699999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 9
+        },
+        "endzone_a": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004445559397404002,
+              "grad_inf": 7.808797546429713e-08,
+              "min_hessian_eig": 4.444358906463232,
+              "energy_spread": 0.004145753887787493,
+              "r_s": 3.3000000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0046896838415842945,
+              "grad_inf": 1.1131735259614639e-07,
+              "min_hessian_eig": 4.416790440767874,
+              "energy_spread": 0.0037481754636966473,
+              "r_s": 3.35
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004939786607264753,
+              "grad_inf": 1.0396294227929537e-07,
+              "min_hessian_eig": 4.386189658924957,
+              "energy_spread": 0.0019478598206929699,
+              "r_s": 3.4
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.005195823484219138,
+              "grad_inf": 9.366260424539807e-08,
+              "min_hessian_eig": 4.352440173351734,
+              "energy_spread": 0.0031649559786232273,
+              "r_s": 3.4499999999999997
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0054577499315948,
+              "grad_inf": 1.3077592011384587e-07,
+              "min_hessian_eig": 4.315407977565612,
+              "energy_spread": 0.002779788995759377,
+              "r_s": 3.4999999999999996
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 5
+        },
+        "endzone_b": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007627845197517268,
+              "grad_inf": 1.1586309664989025e-07,
+              "min_hessian_eig": 0.04040624549041946,
+              "energy_spread": 0.001502339307759691,
+              "r_s": 4.0
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007736425553886843,
+              "grad_inf": 1.527256541025701e-07,
+              "min_hessian_eig": 0.0409355677244399,
+              "energy_spread": 0.0013103369028744883,
+              "r_s": 4.05
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007851130973813108,
+              "grad_inf": 8.327067451546766e-08,
+              "min_hessian_eig": 0.04146358362166869,
+              "energy_spread": 0.0011188949894554972,
+              "r_s": 4.1
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007971908164496822,
+              "grad_inf": 7.439907088145625e-08,
+              "min_hessian_eig": 0.041992705990579915,
+              "energy_spread": 0.0009280464500700421,
+              "r_s": 4.1499999999999995
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 4
+        }
+      }
+    },
+    "eps_frac_0.5": {
+      "eps": 0.025,
+      "intervals": {
+        "gap1": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002720848865515814,
+              "grad_inf": 3.738348946340231e-07,
+              "min_hessian_eig": 4.17014144239249,
+              "energy_spread": 0.005064711831824497,
+              "r_s": 0.22950000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002460827121162975,
+              "grad_inf": 9.153635578337815e-08,
+              "min_hessian_eig": 4.186589010846098,
+              "energy_spread": 0.005354318498036174,
+              "r_s": 0.2795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0022517324922351565,
+              "grad_inf": 1.20918380884516e-07,
+              "min_hessian_eig": 4.202653212806989,
+              "energy_spread": 0.005590662698167395,
+              "r_s": 0.3295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0020520008096251404,
+              "grad_inf": 1.9504849133739066e-07,
+              "min_hessian_eig": 4.218088535082715,
+              "energy_spread": 0.005845416075008166,
+              "r_s": 0.3795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0017968520452933136,
+              "grad_inf": 2.5297088361575515e-08,
+              "min_hessian_eig": 4.232675548050381,
+              "energy_spread": 0.003075002109231138,
+              "r_s": 0.4295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0016095054907536534,
+              "grad_inf": 1.0003531246763342e-07,
+              "min_hessian_eig": 4.246965518224799,
+              "energy_spread": 0.0063843907043420745,
+              "r_s": 0.4795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.001431585157033834,
+              "grad_inf": 5.171072061174731e-08,
+              "min_hessian_eig": 4.260759701827836,
+              "energy_spread": 0.0033286238293361433,
+              "r_s": 0.5295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.001263017542730543,
+              "grad_inf": 1.2787077238556044e-07,
+              "min_hessian_eig": 4.2740949637741,
+              "energy_spread": 0.003475381328814033,
+              "r_s": 0.5794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0011037299254043917,
+              "grad_inf": 1.4534827284806706e-07,
+              "min_hessian_eig": 4.287003932203922,
+              "energy_spread": 0.0035999816025906522,
+              "r_s": 0.6295
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0009536503539339404,
+              "grad_inf": 1.9539909000207412e-07,
+              "min_hessian_eig": 4.299516163669248,
+              "energy_spread": 0.007371036984961035,
+              "r_s": 0.6795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0008127076403619989,
+              "grad_inf": 1.1898556913532421e-07,
+              "min_hessian_eig": 4.311658375705377,
+              "energy_spread": 0.003845124418707476,
+              "r_s": 0.7294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0006808313512943943,
+              "grad_inf": 2.0506487664710693e-07,
+              "min_hessian_eig": 4.32345451632854,
+              "energy_spread": 0.003955221450157816,
+              "r_s": 0.7794999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00041602614481536673,
+              "grad_inf": 5.800398061167611e-08,
+              "min_hessian_eig": 4.334416867950818,
+              "energy_spread": 0.00031916881685520207,
+              "r_s": 0.8294999999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0002961421428725992,
+              "grad_inf": 1.5476534221021965e-07,
+              "min_hessian_eig": 4.345552400966244,
+              "energy_spread": 0.008457896770694726,
+              "r_s": 0.8795
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00018537821043521926,
+              "grad_inf": 6.153021491449306e-08,
+              "min_hessian_eig": 4.356399411861847,
+              "energy_spread": 0.00037851344847455597,
+              "r_s": 0.9294999999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 15
+        },
+        "gap2": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00013111285735114338,
+              "grad_inf": 5.050604129793433e-07,
+              "min_hessian_eig": 4.510661057491456,
+              "energy_spread": 0.0002551770731714048,
+              "r_s": 1.808
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -8.324609756011161e-05,
+              "grad_inf": 7.441808034473057e-08,
+              "min_hessian_eig": 4.517430349237858,
+              "energy_spread": 0.0002529628504998116,
+              "r_s": 1.858
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00024713475052357735,
+              "grad_inf": 1.375360015485813e-07,
+              "min_hessian_eig": 4.522815919084124,
+              "energy_spread": 0.00037129350098102394,
+              "r_s": 1.9080000000000001
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.0004742587602707938,
+              "grad_inf": 1.7151042510862857e-07,
+              "min_hessian_eig": 4.527906349960584,
+              "energy_spread": 0.0007571231283720544,
+              "r_s": 1.9580000000000002
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00040721098589249825,
+              "grad_inf": 3.4447548843009185e-07,
+              "min_hessian_eig": 4.533882923125571,
+              "energy_spread": 0.000757477155187918,
+              "r_s": 2.008
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00033233319305356194,
+              "grad_inf": 1.602148280762522e-07,
+              "min_hessian_eig": 4.539588561152369,
+              "energy_spread": 0.0007491065930803047,
+              "r_s": 2.0580000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.0002496871953568223,
+              "grad_inf": 9.921226714910275e-08,
+              "min_hessian_eig": 4.545007511022704,
+              "energy_spread": 0.0007561819329012166,
+              "r_s": 2.1080000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -0.00015933422411717048,
+              "grad_inf": 3.693050884580329e-07,
+              "min_hessian_eig": 4.550121898970858,
+              "energy_spread": 0.004418193404195708,
+              "r_s": 2.1580000000000004
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": -6.133494460114006e-05,
+              "grad_inf": 3.613159470228222e-07,
+              "min_hessian_eig": 4.554910766669309,
+              "energy_spread": 0.004353193149224877,
+              "r_s": 2.208
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 4.4250527517966176e-05,
+              "grad_inf": 6.534144154912713e-08,
+              "min_hessian_eig": 4.559350323483529,
+              "energy_spread": 0.004228645034754501,
+              "r_s": 2.2580000000000005
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00015736260957398523,
+              "grad_inf": 3.769740012284778e-07,
+              "min_hessian_eig": 4.563413522822917,
+              "energy_spread": 0.004103772942827207,
+              "r_s": 2.3080000000000007
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0002779422348804368,
+              "grad_inf": 5.54293793902233e-08,
+              "min_hessian_eig": 4.567068513671095,
+              "energy_spread": 0.003928958159443991,
+              "r_s": 2.3580000000000005
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 12
+        },
+        "gap3": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0015473121509261736,
+              "grad_inf": 4.13944859587595e-08,
+              "min_hessian_eig": 4.583405642511563,
+              "energy_spread": 0.005801944258216097,
+              "r_s": 2.5557000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0016973144293650879,
+              "grad_inf": 4.846158130171474e-08,
+              "min_hessian_eig": 4.584274747014587,
+              "energy_spread": 0.005567556909165469,
+              "r_s": 2.6057
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0018539398075871464,
+              "grad_inf": 6.417908531182459e-08,
+              "min_hessian_eig": 4.584348213678068,
+              "energy_spread": 0.005333814718729621,
+              "r_s": 2.6557
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002017144801199259,
+              "grad_inf": 1.0647306358801956e-07,
+              "min_hessian_eig": 4.583517167093269,
+              "energy_spread": 0.005100777319948893,
+              "r_s": 2.7056999999999998
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0021868860409394683,
+              "grad_inf": 6.505742915219326e-08,
+              "min_hessian_eig": 4.58165242542689,
+              "energy_spread": 0.004645419709892731,
+              "r_s": 2.7556999999999996
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0023631202555921558,
+              "grad_inf": 7.374051836511741e-08,
+              "min_hessian_eig": 4.578602318463257,
+              "energy_spread": 0.0046140700258024145,
+              "r_s": 2.8056999999999994
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.002418126061248687,
+              "grad_inf": 1.727950683719226e-07,
+              "min_hessian_eig": 4.575080608407131,
+              "energy_spread": 0.004533908473097522,
+              "r_s": 2.8556999999999992
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0026029459742482864,
+              "grad_inf": 3.0566249933916545e-08,
+              "min_hessian_eig": 4.568957140264199,
+              "energy_spread": 0.006804888729685063,
+              "r_s": 2.905699999999999
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.0027940977453562335,
+              "grad_inf": 8.624881735544432e-08,
+              "min_hessian_eig": 4.5610380817259655,
+              "energy_spread": 0.006569074446580489,
+              "r_s": 2.955699999999999
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 9
+        },
+        "endzone_a": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00444555939740417,
+              "grad_inf": 1.2275809132406001e-07,
+              "min_hessian_eig": 4.4443589432764705,
+              "energy_spread": 0.004145753887793894,
+              "r_s": 3.3000000000000003
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004689683841583509,
+              "grad_inf": 7.658802003013276e-08,
+              "min_hessian_eig": 4.416790569621199,
+              "energy_spread": 0.003817706226193836,
+              "r_s": 3.35
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.004939786607263556,
+              "grad_inf": 2.1950766673078936e-08,
+              "min_hessian_eig": 4.3861898438441305,
+              "energy_spread": 0.003490769125116874,
+              "r_s": 3.4
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00519582348421975,
+              "grad_inf": 7.727789598510615e-08,
+              "min_hessian_eig": 4.352439691781298,
+              "energy_spread": 0.0031649559786204196,
+              "r_s": 3.4499999999999997
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.00545774993159398,
+              "grad_inf": 1.038352042820323e-07,
+              "min_hessian_eig": 4.315406630311161,
+              "energy_spread": 0.002779788995756526,
+              "r_s": 3.4999999999999996
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 5
+        },
+        "endzone_b": {
+          "grid": [
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007627845197517509,
+              "grad_inf": 1.784240914928098e-07,
+              "min_hessian_eig": 0.04040593891217421,
+              "energy_spread": 0.0015023393077611708,
+              "r_s": 4.0
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007736425553890422,
+              "grad_inf": 3.564354344696985e-07,
+              "min_hessian_eig": 0.04093508678730728,
+              "energy_spread": 0.0012395428241131568,
+              "r_s": 4.05
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007851130973811933,
+              "grad_inf": 4.688063234316309e-08,
+              "min_hessian_eig": 0.04146349646934776,
+              "energy_spread": 0.001118894989454446,
+              "r_s": 4.1
+            },
+            {
+              "n_starts": 5,
+              "n_minima": 5,
+              "n_ordering_contacts": 0,
+              "n_failures": 0,
+              "n_saddles": 0,
+              "admissible": true,
+              "energy": 0.007971908164500791,
+              "grad_inf": 1.0941424852728074e-07,
+              "min_hessian_eig": 0.04199323601587895,
+              "energy_spread": 0.0005890024921611364,
+              "r_s": 4.1499999999999995
+            }
+          ],
+          "bisected_edges": {},
+          "n_admissible": 4
+        }
+      }
+    }
+  },
+  "summary": {
+    "admissible_points_per_eps": {
+      "eps_frac_0.05": 45,
+      "eps_frac_0.2": 45,
+      "eps_frac_0.5": 45
+    },
+    "unconstrained_lambda_crossings": 0
+  }
+}
